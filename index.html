@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IQuants LLC</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>IQuants LLC</h1>
+      <p>Democratizing data science for small and mid-sized businesses.</p>
+    </div>
+  </section>
+
+  <nav id="navbar" class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="section about-section">
+    <div class="container about-grid">
+        <div class="about-text">
+        <h2>About IQuants LLC</h2>
+        <p>
+            IQuants LLC is a boutique data science consultancy dedicated to helping organizations transform data into actionable insights. We specialize in advanced analytics, causal modeling, forecasting, and decision science—offering small and mid-sized businesses the clarity and guidance on the complex world of data science and AI.
+        </p>
+        <p>
+            Founded and led by <strong>Dr. Aniket Majumdar</strong>, a seasoned data science leader with over 20 years of experience, IQuants brings a unique blend of academic rigor and industry impact. Dr. Majumdar has built and led high-performing data science teams across sectors such as finance, education, and marketing. His expertise includes machine learning, causal modeling, statistical modeling, time series forecasting, and optimization.
+        </p>
+        </div>
+        <div class="about-image">
+        <img src="img/Aniket Profile.jpg" alt="Aniket Majumdar Headshot">
+        </div>
+    </div>
+    </section>
+
+  <section id="experience" class="section experience-section">
+    <div class="container">
+        <h2 class="section-title">Experience & Expertise</h2>
+        <div class="experience-cards">
+        <div class="experience-card">
+            <img src="img/logos/ASUEP.png" alt="ASU Logo" class="exp-logo">
+            <h3>Arizona State University</h3>
+            <p>Led enterprise data science teams supporting alumni, brand, and fundraising. Developed forecasting and causal models.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/Drivetime.png" alt="DriveTime Logo" class="exp-logo">
+            <h3>DriveTime</h3>
+            <p>Built and scaled a data science team to lead initiatives across risk, pricing, and operational models.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/galvanize logo long.png" alt="Galvanize Logo" class="exp-logo">
+            <h3>Galvanize</h3>
+            <p>Taught immersive ML courses for professionals. Consulted on real-world data science business projects.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/Syntel Logo.jpg" alt="Syntel Logo" class="exp-logo">
+            <h3>Syntel</h3>
+            <p>Developed risk models for credit portfolios. Standardized methodology across teams and mentored analysts.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/BofA Logo.png" alt="Bank of America Logo" class="exp-logo">
+            <h3>Bank of America</h3>
+            <p>Developed risk models for credit portfolios. Standardized methodology across teams and mentored analysts.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/TFS Logo.png" alt="TFS Logo" class="exp-logo">
+            <h3>Toyota Financial Services</h3>
+            <p>Developed risk models for credit portfolios. Standardized methodology across teams and mentored analysts.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/Target Logo.png" alt="Target Logo" class="exp-logo">
+            <h3>Target</h3>
+            <p>Developed risk models for credit portfolios. Standardized methodology across teams and mentored analysts.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/GE Logo.png" alt="GE Logo" class="exp-logo">
+            <h3>GE</h3>
+            <p>Developed risk models for credit portfolios. Standardized methodology across teams and mentored analysts.</p>
+        </div>
+
+        <div class="experience-card">
+            <img src="img/logos/Purdue Logo.png" alt="Purdue Logo" class="exp-logo">
+            <h3>Purdue University</h3>
+            <p>Developed risk models for credit portfolios. Standardized methodology across teams and mentored analysts.</p>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+
+
+  <section id="insights" class="section">
+    <div class="container">
+      <h2>Insights & Impact</h2>
+      <ul>
+        <li><strong>Case Study:</strong> Improved hospital readmission rates by 22% using machine learning</li>
+        <li><strong>Open Source:</strong> Contributor to data visualization libraries and Python tools</li>
+        <li><strong>Research:</strong> Published work in applied ML and data ethics in peer-reviewed journals</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Ready to turn your data into a competitive advantage? Let’s talk.</p>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 IQuants LLC. All rights reserved.</p>
+  </footer>
+
+  <script>
+  window.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    if (window.scrollY > 50) {
+      nav.classList.add('scrolled');
+      nav.classList.remove('transparent');
+    } else {
+      nav.classList.remove('scrolled');
+      nav.classList.add('transparent');
+    }
+  });
+</script>
+
+</body>
+</html>
